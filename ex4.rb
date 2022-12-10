@@ -4,9 +4,9 @@ puts """What is your favorite color?
 3 - for anything else"""
 color = gets.chomp.to_i
 
-if color == 1
+if color = 1
   puts "Your favorite color is blue."
-elsif color == 2
+elsif color = 2
   puts "Your favorite color is red"
 else
   puts "Your favorite color is \'I don't care\'"
